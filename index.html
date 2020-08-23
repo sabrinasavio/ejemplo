@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Supermercado Argento</title>
+  </head>
+  <body>
+    <div class="contenedor">
+
+      <div class="titulo">
+        <h1>SUPERMERCADO ARGENTO</h1>
+      </div>
+
+
+      <div id="mensaje">
+        <div class="alert alert-primary" role="alert">
+          <!-- JAVASCRIPT --> 
+        </div>
+      </div>    
+
+
+      <div class="tituloProducto">
+        <h4>PRODUCTOS</h4>
+      </div>
+
+
+      
+      <div class="tablaProductos">
+        
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Producto</th>
+              <th scope="col">Precio Unitario</th>
+              <th scope="col">Cantidad en Stock</th>
+              <th scope="col">Cantidad a Comprar</th>
+              <th></th>
+            </tr>
+          </thead>
+
+          <tbody id="tabla_productos">
+            <!-- JAVASCRIPT -->  
+          </tbody>
+
+        </table>
+      </div>
+      
+
+
+      <div class="vacio"></div>
+
+
+      <div class="tituloCompra">
+        <h4>SU COMPRA</h4>
+      </div>
+
+
+
+
+      <div class="tablaCompra">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Productos</th>
+              <th scope="col">Precio Unitario</th>
+              <th scope="col">Cantidad</th>
+              <th scope="col">Precio Total</th>
+              <th></th>
+            </tr>
+          </thead>
+
+          <tbody id="tabla_compra">
+            <!-- JAVASCRIPT -->
+          </tbody>
+
+        </table>
+      </div>
+
+
+      
+
+      <div class="pie">
+        <button class="btn btn-success btn-custom" onclick="totalPagar()">Finalizar Compra</button>
+        <h2></h2>
+      </div>
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
